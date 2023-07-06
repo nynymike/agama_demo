@@ -2,7 +2,7 @@ package co
 
 class PersonChecker {
 
-    static boolean isBob(String uid) {
+    static boolean detectFraud(String uid) {
         uid.toLowerCase() == "bob"
     }
 
