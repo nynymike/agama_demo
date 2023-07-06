@@ -2,8 +2,8 @@ Flow me.gluu.agama.nopw
      Basepath ""
 creds = RRF "uid-form.ftlh" 
 user = Call co.sample#searchAndAdd "uid" creds.username ""
-isBob = Call co.PersonChecker#isBob creds.username
-When isBob is true
+fraud_detected = Call co.PersonChecker#detectFraud creds.username
+When fraud_detected is true
      message = RRF "stepTwo.ftlh" creds
      Log "@error Alert: Bob tried to login"
      Finish false
