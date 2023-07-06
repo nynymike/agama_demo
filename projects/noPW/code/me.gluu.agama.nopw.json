@@ -18,7 +18,7 @@
 					"y": 23.97954804792107
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
 				"x": 856.9507006430154,
 				"y": 23.97954804792107
@@ -54,10 +54,10 @@
 					"nodeColor": "",
 					"titleColor": "",
 					"descColor": "",
-					"asssignedVariableName": "isBob",
+					"asssignedVariableName": "fraud_detected",
 					"comment": "",
 					"javaClassName": "co.PersonChecker",
-					"javaMethodName": "isBob",
+					"javaMethodName": "detectFraud",
 					"callType": "Call static method",
 					"logLevel": "info",
 					"arguments": "creds.username",
@@ -337,12 +337,19 @@
 					"whenVariable": "isBob",
 					"whenConditionInputField": "is",
 					"whenValue": "true",
-					"variableField": "isBob",
+					"variableField": "fraud_detected",
 					"conditionInputField": "is",
-					"valueField": "true"
+					"valueField": "true",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					]
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 886.1986244908551,
@@ -710,8 +717,8 @@
 		}
 	],
 	"viewport": {
-		"x": -340.99821186311874,
-		"y": 154.66000294127116,
-		"zoom": 0.6948550375341973
+		"x": -426,
+		"y": 33,
+		"zoom": 1
 	}
 }
