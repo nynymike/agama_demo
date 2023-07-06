@@ -1,12 +1,37 @@
 {
 	"nodes": [
 		{
+			"width": 180,
+			"height": 30,
+			"id": "Agama-note-7b21fddb-c202-4b5e-8aa0-837c7b16dbf8",
+			"position": {
+				"x": 898.5999999999999,
+				"y": 47
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-7b21fddb-c202-4b5e-8aa0-837c7b16dbf8",
+				"type": "Agama-note",
+				"notes": "fraud_detected = true",
+				"position": {
+					"x": 898.5999999999999,
+					"y": 47
+				}
+			},
+			"selected": true,
+			"positionAbsolute": {
+				"x": 898.5999999999999,
+				"y": 47
+			},
+			"dragging": false
+		},
+		{
 			"width": 270,
 			"height": 42,
 			"id": "Agama-note-612a460e-3c93-468a-8217-f9d06c8a39ca",
 			"position": {
-				"x": 856.9507006430154,
-				"y": 23.97954804792107
+				"x": 1132.9507006430154,
+				"y": 350.97954804792107
 			},
 			"type": "notes",
 			"data": {
@@ -14,14 +39,14 @@
 				"type": "Agama-note",
 				"notes": "Present Page 2\nif Fraud suspected",
 				"position": {
-					"x": 856.9507006430154,
-					"y": 23.97954804792107
+					"x": 1132.9507006430154,
+					"y": 350.97954804792107
 				}
 			},
 			"selected": false,
 			"positionAbsolute": {
-				"x": 856.9507006430154,
-				"y": 23.97954804792107
+				"x": 1132.9507006430154,
+				"y": 350.97954804792107
 			},
 			"dragging": false
 		},
@@ -349,7 +374,7 @@
 					]
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 886.1986244908551,
@@ -717,8 +742,8 @@
 		}
 	],
 	"viewport": {
-		"x": -426,
-		"y": 33,
+		"x": -428.5999999999999,
+		"y": 153,
 		"zoom": 1
 	}
 }
