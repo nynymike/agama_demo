@@ -5,7 +5,6 @@ user = Call co.sample#searchAndAdd "uid" creds.username ""
 fraud_detected = Call co.PersonChecker#detectFraud creds.username
 When fraud_detected is true
      message = RRF "stepTwo.ftlh" creds
-     Log "@error Alert: Bob tried to login"
      Finish false
 Log "@info Not bob... it's: " creds.username 
 Finish creds.username
