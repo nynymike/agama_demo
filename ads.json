@@ -9,5 +9,19 @@
         "githubUri": "https://github.com/nynymike/agama_demo",
         "license": "MIT",
         "lastUpdated": "1681771041109"
+    },
+    "agama-oidc-auth": {
+        "projectName": "agama-oidc-auth",
+        "description": "OpenID Connect Sample Project",
+        "type": "community",
+        "author": "nynymike",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/nynymike/agama_demo",
+        "githubUri": "https://github.com/nynymike/agama_demo",
+        "license": "MIT",
+        "lastUpdated": "1692109451737",
+        "tags": [
+            "openid-connect"
+        ]
     }
 }
