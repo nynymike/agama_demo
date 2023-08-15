@@ -23,5 +23,19 @@
         "tags": [
             "openid-connect"
         ]
+    },
+    "agama-passwurd": {
+        "projectName": "agama-passwurd",
+        "description": "Fork of Gluu agama-passwurd project",
+        "type": "community",
+        "author": "nynymike",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/nynymike/agama_demo",
+        "githubUri": "https://github.com/nynymike/agama_demo",
+        "license": "MIT",
+        "lastUpdated": "1692114664033",
+        "tags": [
+            "authentication"
+        ]
     }
 }
