@@ -61,9 +61,10 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "ph:globe-simple"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 530,
@@ -124,7 +125,8 @@
 					"displayName": "",
 					"nodeColor": "",
 					"exceptionVariableField": ""
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -157,15 +159,24 @@
 					"id": "Agama-when-Node-1826fd30-c7a3-4bfb-bd6b-7a569717c6f4",
 					"parentId": "Agama-start-Flow-7c4e44f4-f4ef-4288-a3a6-5c006443b8e1",
 					"type": "Agama-when-Node",
-					"hasSuccess": true,
-					"hasFailure": true
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"variableField": "version",
+					"conditionInputField": "is not",
+					"valueField": "\"known\""
 				},
 				"handles": [
 					"Agama-when-Node-1826fd30-c7a3-4bfb-bd6b-7a569717c6f4.FAILURE",
 					"Agama-when-Node-1826fd30-c7a3-4bfb-bd6b-7a569717c6f4.SUCCESS"
-				]
+				],
+				"skake": true
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 257,
 				"y": 204
