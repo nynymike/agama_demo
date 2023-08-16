@@ -37,5 +37,19 @@
         "tags": [
             "authentication"
         ]
+    },
+    "roadmap": {
+        "projectName": "roadmap",
+        "description": "Gluu Roadmaps",
+        "type": "community",
+        "author": "nynymike",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/nynymike/agama_demo",
+        "githubUri": "https://github.com/nynymike/agama_demo",
+        "license": "MIT",
+        "lastUpdated": "1692194875716",
+        "tags": [
+            "community"
+        ]
     }
 }
